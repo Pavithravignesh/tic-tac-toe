@@ -1,12 +1,13 @@
 import './App.css'
-import { TicTacToe, Practice } from './component'
+import { TicTacToe, Practice, Three } from './component'
 
 function App() {
 
   return (
     <>
       {/* <TicTacToe /> */}
-      <Practice />
+      {/* <Practice /> */}
+      <Three />
     </>
   )
 }

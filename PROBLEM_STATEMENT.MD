@@ -13,3 +13,7 @@ logic:
  c. same across any diagonal left to right, or right to left,
 3. chance to play next has to be stop after someone has won!
 4. reset gets you initial state to start a fresh game!  
+
+
+# # does 1st element is non-null,
+# # other's as same as 1st elements

@@ -1,14 +1,14 @@
 import './App.css'
 import { TicTacToe, Practice, Three } from './component'
+import { GameProvider } from './context'
+
 
 function App() {
 
   return (
-    <>
-      {/* <TicTacToe /> */}
-      {/* <Practice /> */}
-      <Three />
-    </>
+    <GameProvider>
+      <TicTacToe />
+    </GameProvider>
   )
 }
 

@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
+import { useGame } from "../context/index";
 
-function RenderSquare() {
+function RenderSquare({ index }) {
+    const { board, handleClick } = useGame();
+
     return (
         <button
-            className="w-20 h-20 text-2xl font-bold border border-gray-500 flex items-center justify-center"
-            key={index}
+            className="w-20 h-20 bg-white border border-gray-400 text-2xl font-bold"
             onClick={() => handleClick(index)}
         >
-            {/* element at the index of board */}
             {board[index]}
         </button>
     );
 }
 
-export default RenderSquare
+export default RenderSquare;

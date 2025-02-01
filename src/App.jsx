@@ -1,5 +1,5 @@
 import './App.css'
-import { TicTacToe, Practice, Three } from './component'
+import TicTacToe from './component'
 import { GameProvider } from './context'
 
 

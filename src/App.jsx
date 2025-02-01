@@ -1,14 +1,13 @@
 import './App.css'
-import TicTacToe from './component'
-import { GameProvider } from './context'
+import { Props } from './component/props'
 
 
 function App() {
 
   return (
-    <GameProvider>
-      <TicTacToe />
-    </GameProvider>
+    <>
+      <Props />
+    </>
   )
 }
 
